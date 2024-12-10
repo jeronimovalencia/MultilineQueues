@@ -6,8 +6,7 @@ We give a quick description on how the fules are organized.
 
 ## MultilineQueues and ExampleMLQs
 
-In *MultilineQueues*, the class of these objects is created with the combinatorial features needed in the t=0 case. They include the definition of objects from ball arrangements, pairing and collapsing procedures, and an implementation of the RSK-esque algorithms defined on multiline queues. 
-*ExamplesMLQs* contains different explicit examples and visualization of the objects and the different methods. 
+In *MultilineQueues*, the class of these objects is created with the combinatorial features needed in the t=0 case. They include the definition of objects from ball arrangements, pairing and collapsing procedures, the statistics that give the connection to q-Whittaker polynomials, and an implementation of the RSK-esque algorithms defined on multiline queues. *ExamplesMLQs* contains different explicit examples, visualization of the objects, and instances of some of the methods. 
 
 ### GameMLQs
 
