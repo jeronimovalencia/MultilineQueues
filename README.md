@@ -18,11 +18,17 @@ First, you choose the number of columns *C* in which you are going to play, and 
 
 ## GeneralizedMultilineQueues and ExampleGMLQs
 
-The objects whose class is defined in *GeneralizedMultilineQueues* correspond to the multiline queues from "Multiline Queues with Spectral Parameters" (https://link.springer.com/article/10.1007/s00220-020-03694-4). It contains the generalized pairing algorithm and the methods to compute the statistics from [MV24] to stablish the new formulas for q-Whittaker polynomials based on this objects. Once again, *ExamplesGMLQs* contains explicit calculations and visualization of the objects. 
+The objects whose class is defined in *GeneralizedMultilineQueues* correspond to the multiline queues from "Multiline Queues with Spectral Parameters" (https://link.springer.com/article/10.1007/s00220-020-03694-4). It contains the generalized pairing algorithm and the methods to compute the statistics from [MV24] to stablish the new formulas for q-Whittaker polynomials based on this objects. In the preprint, they are now called *Twisted Multiline Queues*. Once again, *ExamplesGMLQs* contains explicit calculations and visualization of the objects. 
 
 ## MultilineDiagrams and ExampleMLDs
 
+In [MV24] we also consider a bosonic/plethystic analog of multiline queues that were originally called Multiline Diagrams. In more recent versions of the preprint, they are called *Bosonic Multiline Queues*. In *MultilineDiagrams*, the class of the objects is defined with the construction from bosonic ball arrangements, pairing and collapsing procedures, and the statistics that stablish their connection with the evaluation of modified Hall--Littlewood polynomials at t=0. Once again, *ExamplesMDQs* contains explicit calculations and visualization of the objects. 
+
+# Generalizations of Multiline Queues
+
+While Twisted and Bosonic multiline queues are generalizations of the multiline queues from Ferrari and Martin, they have algebraic motivation arising from the combinatorial R-matrix and plethystic identities of the Macdonald Polynomials respectively. 
+
 ## SupersymmetricMultilineQueues and ExampleSuperMLQs
 
-# PosetMultilineQueues
+## PosetMultilineQueues
 
