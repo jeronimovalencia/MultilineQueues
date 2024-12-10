@@ -8,11 +8,11 @@ We give a quick description on how the fules are organized.
 
 In *MultilineQueues*, the class of these objects is created with the combinatorial features needed in the t=0 case. They include the definition of objects from ball arrangements, pairing and collapsing procedures, the statistics that give the connection to q-Whittaker polynomials, and an implementation of the RSK-esque algorithms defined on multiline queues. *ExamplesMLQs* contains different explicit examples, visualization of the objects, and instances of some of the methods. 
 
-### GameMLQs
+## GameMLQs
 
 In the appendix of [MV24], we define an insertion algorithm on multiline queues to give an explicit bijection from MLQs and semistandard Young tableaux. This insertion algorithm always reminded me of Connect4. In *GameMLQs*, I implemented the game. 
 
-#### How to play
+### How to play
 
 First, you choose the number of columns *C* in which you are going to play, and the board initializes in the empty board. Player1 has RED pieces, and Player2 has BLUE pieces. The players input numbers between 1 and *C* in order to insert a RED/BLUE piece in the given column. Such piece is inserted in the multiline queue (pairing weakly to the right) and the state of the board is always a non-wrapping MLQ. Similar to Connect4, the first player to have 4 pieces of their color in a row wins. 
 
@@ -26,9 +26,13 @@ In [MV24] we also consider a bosonic/plethystic analog of multiline queues that 
 
 # Generalizations of Multiline Queues
 
-While Twisted and Bosonic multiline queues are generalizations of the multiline queues from Ferrari and Martin, they have algebraic motivation arising from the combinatorial R-matrix and plethystic identities of the Macdonald Polynomials respectively. 
+While Twisted and Bosonic multiline queues are generalizations of the multiline queues from Ferrari and Martin, they have algebraic motivation arising from the combinatorial R-matrix and plethystic identities of the Macdonald Polynomials respectively. The following files include generalizations motivated from other sources.
 
 ## SupersymmetricMultilineQueues and ExampleSuperMLQs
 
+We can consider multiline queues in which columns can be fermionic or bosonic. We can make the pairing direction match and generalize the pairing algorithm from Bosonic and (Fermionic) multiline queues. *SupersymmetricMultilineQueues* has the class of objects that we call *Supersymmetric* since they are in bijection with supersymmetric semistandard tableaux (see "A Determinantal Formula for Supersymmetric Schur Polynomials" (https://link.springer.com/article/10.1023/A:1025048821756) for the connection of these objects with representation theory of Lie Superalgebras.) 
+
 ## PosetMultilineQueues
+
+
 
