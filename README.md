@@ -10,9 +10,9 @@ In *MultilineQueues*, the class of these objects is created with the combinatori
 
 ## GameMLQs
 
-In the appendix of [MV24], we define an insertion algorithm on multiline queues to give an explicit bijection from MLQs and semistandard Young tableaux. This insertion algorithm always reminded me of Connect4. In *GameMLQs*, I implemented the game. 
+In the appendix of [MV24], we define an insertion algorithm on multiline queues to give an explicit bijection from MLQs and semistandard Young tableaux. This insertion algorithm always reminded me of Connect4. In *GameMLQs*, I implemented the methods to play the game. 
 
-- With Stephan Pfannerer-Mittas we made the game on HTML so that it can be played in : https://c-viz.github.io/MLQ/
+- With Stephan Pfannerer-Mittas we implemented the game on HTML so that it can be played in : https://c-viz.github.io/MLQ/
 
 
 ### How to play
