@@ -12,6 +12,9 @@ In *MultilineQueues*, the class of these objects is created with the combinatori
 
 In the appendix of [MV24], we define an insertion algorithm on multiline queues to give an explicit bijection from MLQs and semistandard Young tableaux. This insertion algorithm always reminded me of Connect4. In *GameMLQs*, I implemented the game. 
 
+- With Stephan Pfannerer-Mittas we made the game on HTML so that it can be played in : https://c-viz.github.io/MLQ/
+
+
 ### How to play
 
 First, you choose the number of columns *C* in which you are going to play, and the board initializes in the empty board. Player1 has RED pieces, and Player2 has BLUE pieces. The players input numbers between 1 and *C* in order to insert a RED/BLUE piece in the given column. Such piece is inserted in the multiline queue (pairing weakly to the right) and the state of the board is always a non-wrapping MLQ. Similar to Connect4, the first player to have 4 pieces of their color in a row wins. 
