@@ -30,12 +30,14 @@ In [MV24] we also consider a bosonic/plethystic analog of multiline queues that 
 
 While Twisted and Bosonic multiline queues are generalizations of the multiline queues from Ferrari and Martin, they have algebraic motivation arising from the combinatorial R-matrix and plethystic identities of the Macdonald Polynomials respectively. The following files include generalizations motivated from other sources.
 
-## SupersymmetricMultilineQueues and ExampleSuperMLQs
-
-We can consider multiline queues in which columns can be fermionic or bosonic. We can make the pairing direction match and generalize the pairing algorithm from Bosonic and (Fermionic) multiline queues. *SupersymmetricMultilineQueues* has the class of objects that we call *Supersymmetric* since they are in bijection with supersymmetric semistandard tableaux (see "A Determinantal Formula for Supersymmetric Schur Polynomials" (https://link.springer.com/article/10.1023/A:1025048821756) for the connection of these objects with representation theory of Lie Superalgebras.) 
-
 ## MultilineQueuesTypeC and ExamplesMLQsTypeC (and Crystals.ipynb)
 
 The ideas I describe now come from "Type C multiline queues and the open-boundary TASEP" (https://arxiv.org/abs/2607.24637).
 We started thinking about fermionic multiline queues in crystal terms a while ago. They have an affine type A crystal structure that induces a nice Markov chain on MLQs that lumps to the TASEP on a circle. Type C multiline queues have a corresponding affine type C crystal structure, a good Markov chain based on it, and lumps to the TASEP with open boundaries (actually closed, but in the literature this Markov chain really comes from an open boundary generalization...)
+
+## SupersymmetricMultilineQueues and ExampleSuperMLQs
+
+We can consider multiline queues in which columns can be fermionic or bosonic. We can make the pairing direction match and generalize the pairing algorithm from Bosonic and (Fermionic) multiline queues. *SupersymmetricMultilineQueues* has the class of objects that we call *Supersymmetric* since they are in bijection with supersymmetric semistandard tableaux (see "A Determinantal Formula for Supersymmetric Schur Polynomials" (https://link.springer.com/article/10.1023/A:1025048821756) for the connection of these objects with representation theory of Lie Superalgebras.) 
+
+
 
