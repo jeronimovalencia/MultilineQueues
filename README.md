@@ -14,7 +14,6 @@ In the appendix of [MV24], we define an insertion algorithm on multiline queues 
 
 - With Stephan Pfannerer-Mittas we implemented the game on HTML so that it can be played in : https://c-viz.github.io/MLQ/
 
-
 ### How to play
 
 First, you choose the number of columns *C* in which you are going to play, and the board initializes in the empty board. Player1 has RED pieces, and Player2 has BLUE pieces. The players input numbers between 1 and *C* in order to insert a RED/BLUE piece in the given column. Such piece is inserted in the multiline queue (pairing weakly to the right) and the state of the board is always a non-wrapping MLQ. Similar to Connect4, the first player to have 4 pieces of their color in a row wins. 
@@ -35,7 +34,8 @@ While Twisted and Bosonic multiline queues are generalizations of the multiline 
 
 We can consider multiline queues in which columns can be fermionic or bosonic. We can make the pairing direction match and generalize the pairing algorithm from Bosonic and (Fermionic) multiline queues. *SupersymmetricMultilineQueues* has the class of objects that we call *Supersymmetric* since they are in bijection with supersymmetric semistandard tableaux (see "A Determinantal Formula for Supersymmetric Schur Polynomials" (https://link.springer.com/article/10.1023/A:1025048821756) for the connection of these objects with representation theory of Lie Superalgebras.) 
 
-## PosetMultilineQueues
+## MultilineQueuesTypeC and ExamplesMLQsTypeC (and Crystals.ipynb)
 
-...
+The ideas I describe now come from "Type C multiline queues and the open-boundary TASEP" (https://arxiv.org/abs/2607.24637).
+We started thinking about fermionic multiline queues in crystal terms a while ago. They have an affine type A crystal structure that induces a nice Markov chain on MLQs that lumps to the TASEP on a circle. Type C multiline queues have a corresponding affine type C crystal structure, a good Markov chain based on it, and lumps to the TASEP with open boundaries (actually closed, but in the literature this Markov chain really comes from an open boundary generalization...)
 
